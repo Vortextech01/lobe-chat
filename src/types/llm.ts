@@ -5,13 +5,13 @@ export enum LanguageModel {
   /**
    * GPT 3.5 Turbo
    */
-  GPT3_5 = 'gpt-3.5-turbo',
-  GPT3_5_16K = 'gpt-3.5-turbo-16k',
+  GPT3_5 = 'ft:gpt-3.5-turbo-0613:personal::7yezLDjd',
+  GPT3_5_16K = 'ft:gpt-3.5-turbo-0613:personal::7yezLDjd',
   /**
    * GPT 4
    */
-  GPT4 = 'gpt-4',
-  GPT4_32K = 'gpt-4-32k',
+  GPT4 = 'ft:gpt-3.5-turbo-0613:personal::7yezLDjd',
+  GPT4_32K = 'ft:gpt-3.5-turbo-0613:personal::7yezLDjd',
 }
 
 // 语言模型的设置参数
