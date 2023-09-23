@@ -10,7 +10,7 @@ import { useSessionStore } from '@/store/session';
 export const useStyles = createStyles(({ css, token }) => ({
   logo: css`
     color: ${token.colorText};
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
@@ -27,7 +27,7 @@ const Header = memo(() => {
 
   return (
     <MobileNavBar
-      center={<span className={styles.logo}>Sapiens🧬LABS</span>}
+      center={<span className={styles.logo}>🧬Sapiens</span>}
       left={<AvatarWithUpload size={28} style={{ marginLeft: 8 }} />}
       right={
         <>
