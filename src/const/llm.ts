@@ -7,7 +7,11 @@ export const LanguageModelWhiteList = [
   'ft:gpt-3.5-turbo-0613:personal::7whXGxXX',
   'ft:gpt-3.5-turbo-0613:personal::7voqetWG',
   'ft:gpt-3.5-turbo-0613:personal::7tyvSGiB',
-  
+  'gpt-3.5-turbo',
+  'gpt-3.5-turbo-16k',
+  'gpt-4',
+  'gpt-4-32k',
+
 ];
 
 export const DEFAULT_OPENAI_MODEL_LIST = [
@@ -15,5 +19,9 @@ export const DEFAULT_OPENAI_MODEL_LIST = [
   'ft:gpt-3.5-turbo-0613:personal::7whXGxXX',
   'ft:gpt-3.5-turbo-0613:personal::7voqetWG',
   'ft:gpt-3.5-turbo-0613:personal::7tyvSGiB',
+  'gpt-3.5-turbo',
+  'gpt-3.5-turbo-16k',
+  'gpt-4',
+  'gpt-4-32k',
   
 ];
