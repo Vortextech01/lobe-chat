@@ -31,7 +31,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <Meta title={'LobeChat'} />
+          <Meta title={'SapiensIA'} />
           <link href="/manifest.json" rel="manifest" />
         </Head>
         <body>
