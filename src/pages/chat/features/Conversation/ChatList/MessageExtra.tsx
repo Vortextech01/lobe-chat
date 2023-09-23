@@ -1,4 +1,4 @@
-import { FaRunning } from '@icons-pack/react-simple-icons';
+import { SiPhabricator } from '@icons-pack/react-simple-icons';
 import { Tag } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { ReactNode } from 'react';
@@ -46,7 +46,7 @@ const MessageExtra = ({
 
   const modelTag = (
     <div>
-      <Tag icon={<FaRunning size={'1em'} />}>{extra?.fromModel as string}</Tag>
+      <Tag icon={<SiPhabricator size={'1em'} />}>{extra?.fromModel as string}</Tag>
     </div>
   );
 
