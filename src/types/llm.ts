@@ -6,12 +6,12 @@ export enum LanguageModel {
    * GPT 3.5 Turbo
    */
   GPT3_5 = 'ft:gpt-3.5-turbo-0613:personal::7yezLDjd',
-  GPT3_5_16K = 'ft:gpt-3.5-turbo-0613:personal::7yezLDjd',
+  GPT3_5_16K = 'ft:gpt-3.5-turbo-0613:personal::7whXGxXX'',
   /**
    * GPT 4
    */
-  GPT4 = 'ft:gpt-3.5-turbo-0613:personal::7yezLDjd',
-  GPT4_32K = 'ft:gpt-3.5-turbo-0613:personal::7yezLDjd',
+  GPT4 = 'ft:gpt-3.5-turbo-0613:personal::7voqetWG',
+  GPT4_32K = 'ft:gpt-3.5-turbo-0613:personal::7tyvSGiB',
 }
 
 // 语言模型的设置参数
