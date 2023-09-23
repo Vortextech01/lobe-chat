@@ -1,4 +1,4 @@
-import { Logo, MobileNavBar } from '@lobehub/ui';
+import { MobileNavBar } from '@lobehub/ui';
 import { useTheme } from 'antd-style';
 import { PropsWithChildren, memo } from 'react';
 
@@ -8,7 +8,13 @@ const WelcomeLayout = memo<PropsWithChildren>(({ children }) => {
   const theme = useTheme();
   return (
     <AppMobileLayout
-      navBar={<MobileNavBar center={<Logo type={'text'} />} />}
+      navBar={
+        <MobileNavBar
+          center={
+            <span style={{ fontSize: 24, fontWeight: 'bold' }}>Sapiens🧬LABS</span>
+          }
+        />
+      }
       showTabBar
       style={{ background: theme.colorBgContainer }}
     >

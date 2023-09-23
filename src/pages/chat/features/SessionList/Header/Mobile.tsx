@@ -1,4 +1,4 @@
-import { ActionIcon, Logo, MobileNavBar } from '@lobehub/ui';
+import { ActionIcon, MobileNavBar } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { MessageSquarePlus, Settings2 } from 'lucide-react';
 import Router from 'next/router';
@@ -9,7 +9,11 @@ import { useSessionStore } from '@/store/session';
 
 export const useStyles = createStyles(({ css, token }) => ({
   logo: css`
-    fill: ${token.colorText};
+    color: ${token.colorText};
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
   `,
   top: css`
     position: sticky;
@@ -18,11 +22,12 @@ export const useStyles = createStyles(({ css, token }) => ({
 }));
 
 const Header = memo(() => {
+  const { styles } = useStyles();
   const [createSession] = useSessionStore((s) => [s.createSession]);
 
   return (
     <MobileNavBar
-      center={<Logo type={'text'} />}
+      center={<span className={styles.logo}>Sapiens🧬LABS</span>}
       left={<AvatarWithUpload size={28} style={{ marginLeft: 8 }} />}
       right={
         <>
