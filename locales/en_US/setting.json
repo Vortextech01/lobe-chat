@@ -151,7 +151,7 @@
     "model": {
       "desc": "Basilisk-AI Models",
       "list": {
-        "gpt-3.5-turbo": "GPT 3.5",
+        "ft:gpt-3.5-turbo-0613:personal::7yezLDjd": "Basilisk-V1",
         "gpt-3.5-turbo-16k": "GPT 3.5 (16K)",
         "gpt-4": "GPT 4",
         "gpt-4-32k": "GPT 4 (32K)"
