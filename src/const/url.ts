@@ -26,7 +26,7 @@ export const getPluginIndexJSON = (lang: Locales = DEFAULT_LANG, baseUrl = PLUGI
   return urlJoin(baseUrl, `index.${lang}.json`);
 };
 
-export const AGENTS_INDEX_URL = process.env.AGENTS_INDEX_URL ?? 'https://chat-agents.lobehub.com';
+export const AGENTS_INDEX_URL = process.env.AGENTS_INDEX_URL ?? 'https://lobe-chat-agents-vuzs.vercel.app';
 
 export const getAgentIndexJSON = (lang: Locales = DEFAULT_LANG, baseUrl = AGENTS_INDEX_URL) => {
   if (checkLang(lang)) return baseUrl;
