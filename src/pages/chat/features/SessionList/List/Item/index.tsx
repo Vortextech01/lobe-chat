@@ -1,4 +1,4 @@
-import { SiOpenai } from '@icons-pack/react-simple-icons';
+import { SiPhabricator } from '@icons-pack/react-simple-icons';
 import { Avatar, List, Tag } from '@lobehub/ui';
 import { useHover } from 'ahooks';
 import { createStyles, useResponsive } from 'antd-style';
@@ -89,7 +89,7 @@ const SessionItem = memo<SessionItemProps>(({ id }) => {
     () =>
       !showModel ? undefined : (
         <Flexbox gap={4} horizontal style={{ flexWrap: 'wrap' }}>
-          {showModel && <Tag icon={<SiOpenai size={'1em'} />}>{model}</Tag>}
+          {showModel && <Tag icon={<SiPhabricator size={'1em'} />}>{model}</Tag>}
         </Flexbox>
       ),
     [showModel, model],
