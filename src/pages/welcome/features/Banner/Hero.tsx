@@ -23,7 +23,7 @@ const Hero = memo<{ width: number }>(({ width }) => {
     <>
       <LogoThree size={size.logo} style={{ marginTop: -size.logo / 5 }} />
       <div className={styles.title} style={{ fontSize: size.title }}>
-        <span style={mobile ? { fontSize: '1.2em' } : {}}>LobeChat</span>
+        <span style={mobile ? { fontSize: '1.2em' } : {}}>Sapiens🧬LABS</span>
         {mobile ? <br /> : ' '}
         {t('slogan.title')}
       </div>
