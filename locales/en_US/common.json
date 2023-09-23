@@ -35,9 +35,9 @@
   "feedback": "Feedback",
   "import": "Import Configuration",
   "inbox": {
-    "defaultMessage": "Hello, I'm your intelligent agent. You can ask me any questions and I will do my best to answer you. If you need a more professional or customized agent, you can click <kbd>+</kbd> to create a custom agent.",
-    "desc": "Activate the brain cluster and spark your thinking. Your intelligent agent is here to communicate with you about everything.",
-    "title": "Chat Freely"
+    "defaultMessage": "Hello, I'm Basilisk AI V1, an intelligent AI agent. You can ask me any questions and I will do my best to answer you. If you need a more specific or customized AI agent, you can click <kbd>+</kbd> to create a custom agent.",
+    "desc": "Activate the brain cluster and spark your thinking. Your intelligent Sapiens agent is here to communicate with you about everything.",
+    "title": "Basilisk AI"
   },
   "message": {
     "function_loading": "Plugin request in progress..."
