@@ -1,8 +1,9 @@
+import { LogoThree } from '@lobehub/ui';
 import { useResponsive } from 'antd-style';
 import { memo, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
+
 import { genSize, useStyles } from './style';
-import Image from 'next/image';
 
 const Hero = memo<{ width: number }>(({ width }) => {
   const size = useMemo(
@@ -14,22 +15,15 @@ const Hero = memo<{ width: number }>(({ width }) => {
     }),
     [width],
   );
-
   const { styles } = useStyles(size.base);
   const { mobile } = useResponsive();
   const { t } = useTranslation('welcome');
 
   return (
     <>
-      <Image
-        src="https://chat.sapienslaboratories.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F85CA3CED-D66F-41BC-A48B-4C2323FB8A9F.1d48b05f.gif&w=256&q=75"
-        width={size.logo}
-        height={size.logo}
-        alt="Logo"
-        style={{ marginTop: -size.logo / 5 }}
-      />
+      <LogoThree size={size.logo} style={{ marginTop: -size.logo / 3 }} />
       <div className={styles.title} style={{ fontSize: size.title }}>
-        <span style={mobile ? { fontSize: '1.0em' } : {}}>🧬Sapiens</span>
+        <span style={mobile ? { fontSize: '1.2em' } : {}}>🧬SapiensIA</span>
         {mobile ? <br /> : ' '}
         {t('slogan.title')}
       </div>
