@@ -11,7 +11,7 @@ const WelcomeLayout = memo<PropsWithChildren>(({ children }) => {
       navBar={
         <MobileNavBar
           center={
-            <span style={{ fontSize: 24, fontWeight: 'bold' }}>Sapiens🧬LABS</span>
+            <span style={{ fontSize: 24, fontWeight: 'bold' }}>🧬SapiensIA</span>
           }
         />
       }

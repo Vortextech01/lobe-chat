@@ -18,7 +18,7 @@ const WelcomeLayout = memo<PropsWithChildren>(({ children }) => {
         style={{ position: 'relative' }}
       >
         <Link href={'/'}>
-          <span className={styles.logo}>Sapiens🧬LABS</span>
+          <span className={styles.logo}>🧬SapiensIA</span>
         </Link>
         <Flexbox className={styles.view} flex={1} style={{ maxWidth: 1024 }}>
           {children}

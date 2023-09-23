@@ -63,7 +63,7 @@ const MetaForm = memo<{ form: FormInstance; mode?: 'edit' | 'create' }>(({ form,
       name: 'homepage',
     },
     {
-      children: <EmojiPicker defaultAvatar={'🧩'} />,
+      children: <EmojiPicker defaultAvatar={'⚡️'} />,
       desc: t('dev.meta.avatar.desc'),
       label: t('dev.meta.avatar.label'),
       name: ['meta', 'avatar'],

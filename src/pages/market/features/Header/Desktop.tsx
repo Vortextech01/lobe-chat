@@ -28,7 +28,7 @@ const Header = memo(() => {
       left={
         <Link href={'/'}>
           <a className={styles.logo}>
-            <span>SapiensLabs</span>
+            <span>🧬SapiensIA</span>
             <span className="discover-label">Discover</span>
           </a>
         </Link>

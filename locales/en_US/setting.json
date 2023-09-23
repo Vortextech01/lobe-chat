@@ -66,18 +66,18 @@
       },
       "title": "OpenAI Settings",
       "token": {
-        "desc": "Use your own OpenAI key",
-        "placeholder": "OpenAI API Key",
-        "title": "API Key"
+        "desc": "Use your own SapiensLabs key",
+        "placeholder": "SapiensLabs API Key",
+        "title": "ORG Key"
       },
       "useAzure": {
-        "desc": "Using OpenAI services from Azure",
+        "desc": "Using SapiensLabs services from Azure",
         "fetch": "Get list",
-        "title": "Azure OpenAI",
-        "serverConfig": "The administrator has enabled Azure OpenAI on the server side, switching is prohibited"
+        "title": "Azure LLM",
+        "serverConfig": "The administrator has enabled Azure models - SapiensLabs on the server side, switching is prohibited"
       }
     },
-    "waitingForMore": "<1>Access to other models is planned</1>, so stay tuned ✨"
+    "waitingForMore": "<1>Access to new models is planned</1>, so stay tuned ✨"
   },
   "settingAgent": {
     "avatar": {
@@ -149,7 +149,7 @@
       "title": "Single Reply Limit"
     },
     "model": {
-      "desc": "ChatGPT Model",
+      "desc": "Basilisk-AI Models",
       "list": {
         "gpt-3.5-turbo": "GPT 3.5",
         "gpt-3.5-turbo-16k": "GPT 3.5 (16K)",
@@ -176,14 +176,14 @@
   "settingOpenAI": {
     "endpoint": {
       "desc": "Must include http(s)://, in addition to the default address",
-      "placeholder": "https://api.openai.com/v1",
+      "placeholder": "https://api.sapienslabs.com/v1",
       "title": "API Proxy Address"
     },
-    "title": "OpenAI Settings",
+    "title": "SapiensLabs Settings",
     "token": {
-      "desc": "Use your own OpenAI Key",
-      "placeholder": "OpenAI API Key",
-      "title": "API Key"
+      "desc": "Use your own Basilisk Model",
+      "placeholder": "SapiensLabs ORG Key",
+      "title": "ORG Key"
     }
   },
   "settingPlugin": {
