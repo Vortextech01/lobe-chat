@@ -1,5 +1,5 @@
 export default {
-  addAgent: '添加助手',
+  addAgent: 'Añadir Agente',
   search: {
     placeholder: '搜索助手名称介绍或关键词...',
   },
