@@ -1,4 +1,4 @@
-import { ChatHeader, Icon, Logo } from '@lobehub/ui';
+import { ChatHeader, Icon } from '@lobehub/ui';
 import { Button } from 'antd';
 import { createStyles } from 'antd-style';
 import { Bot } from 'lucide-react';
@@ -12,6 +12,10 @@ export const useStyles = createStyles(({ css, token }) => ({
   logo: css`
     color: ${token.colorText};
     fill: ${token.colorText};
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
   `,
 }));
 
@@ -23,7 +27,10 @@ const Header = memo(() => {
     <ChatHeader
       left={
         <Link href={'/'}>
-          <Logo className={styles.logo} extra={'Discover'} size={36} type={'text'} />
+          <a className={styles.logo}>
+            <span>SapiensLabs</span>
+            <span className="discover-label">Discover</span>
+          </a>
         </Link>
       }
       right={

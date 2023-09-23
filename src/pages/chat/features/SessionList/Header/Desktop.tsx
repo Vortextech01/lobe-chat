@@ -1,4 +1,4 @@
-import { ActionIcon, Logo } from '@lobehub/ui';
+import { ActionIcon } from '@lobehub/ui';
 import { createStyles } from 'antd-style';
 import { MessageSquarePlus } from 'lucide-react';
 import Link from 'next/link';
@@ -13,6 +13,11 @@ import SessionSearchBar from '../../SessionSearchBar';
 export const useStyles = createStyles(({ css, token }) => ({
   logo: css`
     fill: ${token.colorText};
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: ${token.colorText};
+    cursor: pointer;
   `,
   top: css`
     position: sticky;
@@ -29,7 +34,7 @@ const Header = memo(() => {
     <Flexbox className={styles.top} gap={16} padding={16}>
       <Flexbox distribution={'space-between'} horizontal>
         <Link href={'/'}>
-          <Logo className={styles.logo} size={36} type={'text'} />
+          <a className={styles.logo}>Sapiens🧬LABS</a>
         </Link>
         <ActionIcon
           icon={MessageSquarePlus}
