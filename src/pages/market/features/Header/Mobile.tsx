@@ -1,4 +1,4 @@
-import { ActionIcon, Logo, MobileNavBar } from '@lobehub/ui';
+import { ActionIcon, MobileNavBar } from '@lobehub/ui';
 import { Settings2 } from 'lucide-react';
 import Router from 'next/router';
 import { memo } from 'react';
@@ -8,7 +8,7 @@ import AvatarWithUpload from '@/features/AvatarWithUpload';
 const Header = memo(() => {
   return (
     <MobileNavBar
-      center={<Logo type={'text'} />}
+      center={<span style={{ fontSize: 20, fontWeight: 'bold' }}>🧬SapiensIA</span>}
       left={<AvatarWithUpload size={28} style={{ marginLeft: 8 }} />}
       right={
         <ActionIcon
