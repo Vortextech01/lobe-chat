@@ -9,5 +9,5 @@ module.exports = defineConfig({
   outputLocales: ['zh_TW', 'en_US', 'ru_RU'],
   splitToken: 2500,
   temperature: 0,
-  modelName: 'Basilisk-ai',
+  modelName: 'gpt-3.5-turbo',
 });
