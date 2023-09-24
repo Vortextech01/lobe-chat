@@ -10,8 +10,6 @@ export enum LanguageModel {
   /**
    * GPT 4
    */
-  GPT4 = 'gpt-4',
-  GPT4_32K = 'gpt-4-32k',
 }
 
 // 语言模型的设置参数
