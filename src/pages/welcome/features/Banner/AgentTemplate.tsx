@@ -7,17 +7,17 @@ import { useStyles } from './style';
 
 const items: AgentCardProps['meta'][] = [
   {
-    avatar: '😀',
+    avatar: '🧠',
     description: 'dddddd',
     title: 'Title',
   },
   {
-    avatar: '😀',
+    avatar: '🧠',
     description: 'dddddd',
     title: 'Title',
   },
   {
-    avatar: '😀',
+    avatar: '🧠',
     description: 'dddddd',
     title: 'Title',
   },
