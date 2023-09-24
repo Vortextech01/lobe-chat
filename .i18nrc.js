@@ -6,8 +6,8 @@ module.exports = defineConfig({
   entry: 'locales/en_US',
   entryLocale: 'en_US',
   output: 'locales',
-  outputLocales: ['zh_TW', 'en_US', 'ru_RU'],
+  outputLocales: ['en_US'],
   splitToken: 2500,
   temperature: 0,
-  modelName: 'gpt-3.5-turbo',
+  modelName: 'Basilisk-V1',
 });
