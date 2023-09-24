@@ -1,14 +1,14 @@
 {
   "button": {
-    "import": "导入配置",
-    "start": "立即开始"
+    "import": "Importar Configuracion",
+    "start": "💾Comenzar Ahora"
   },
-  "header": "欢迎使用",
-  "pickAgent": "或从下列助手模板选择",
-  "skip": "跳过创建",
+  "header": "Bienvenido",
+  "pickAgent": "O comienza con uno de nuestros Sapiens-agent🎭templates",
+  "skip": "Saltar Creacion",
   "slogan": {
-    "desc1": "开启大脑集群，激发思维火花。你的智能助理，一直都在。",
-    "desc2": "创建你的第一个助手，让我们开始吧~",
-    "title": "给自己一个更聪明的大脑"
+    "desc1": "Aqui es donde viven los mounstros de lenguaje. Tu Basilisk y agentes siempre estan aqui para ti.",
+    "desc2": "Crea Tu Propio Agente y comienza a 🧬Acelerar~",
+    "title": "- La Nueva Generacion De Trabajadores"
   }
 }
