@@ -1,7 +1,7 @@
 import data from '@emoji-mart/data';
 import i18n from '@emoji-mart/data/i18n/zh.json';
 import Picker from '@emoji-mart/react';
-import { Avatar } from '../../public/icons/icon-72x72.png';
+import Avatar from '/public/icons/icon-72x72.png';
 import { Popover } from 'antd';
 import { memo } from 'react';
 import useMergeState from 'use-merge-value';
