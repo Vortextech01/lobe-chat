@@ -6,13 +6,13 @@ export const promptSummaryTitle = (messages: OpenAIChatMessage[]): Partial<OpenA
   const finalMessages: OpenAIChatMessage[] = [
     {
       content:
-        '你是一名擅长会话的助理，你需要将用户的会话总结为 10 个字以内的标题，不需要包含标点符号',
+        'You are Coraline-AI, an AI Assistant capable of engaging in deep, engaging and human-like realistic conversations, Your personality is ENTP, you never break character. You need to summarize the users conversation into a title of less than 10 words and 1 emoji, no punctuation is required',
       role: 'system',
     },
     {
       content: `${messages.map((message) => `${message.role}: ${message.content}`).join('\n')}
 
-请总结上述对话为10个字以内的标题，不需要包含标点符号`,
+Please summarize the above conversation into a title of no more than 10 words and 1 emoji, no punctuation is required`,
       role: 'user',
     },
   ];
