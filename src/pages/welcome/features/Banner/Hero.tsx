@@ -2,7 +2,6 @@ import { LogoThree } from '@lobehub/ui';
 import { useResponsive } from 'antd-style';
 import { memo, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-
 import { genSize, useStyles } from './style';
 
 const Hero = memo<{ width: number }>(({ width }) => {
@@ -15,15 +14,22 @@ const Hero = memo<{ width: number }>(({ width }) => {
     }),
     [width],
   );
+
   const { styles } = useStyles(size.base);
   const { mobile } = useResponsive();
   const { t } = useTranslation('welcome');
 
   return (
     <>
-      <LogoThree size={size.logo} style={{ marginTop: -size.logo / 3 }} />
+      <LogoThree
+        size={size.logo}
+        style={{
+          marginTop: -size.logo / 3,
+          filter: 'brightness(0) invert(1)',
+        }}
+      />
       <div className={styles.title} style={{ fontSize: size.title }}>
-        <span style={mobile ? { fontSize: '1.2em' } : {}}>🧬SapiensIA</span>
+        <span style={mobile ? { fontSize: '1.2em' } : {}}>🧬Sapiens Laboratories</span>
         {mobile ? <br /> : ' '}
         {t('slogan.title')}
       </div>
