@@ -1,4 +1,4 @@
-import { SiOpenai } from '@icons-pack/react-simple-icons';
+import { SiPhabricator } from '@icons-pack/react-simple-icons';
 import { ActionIcon, Avatar, ChatHeader, ChatHeaderTitle, Tag } from '@lobehub/ui';
 import { Skeleton } from 'antd';
 import { PanelRightClose, PanelRightOpen, Settings } from 'lucide-react';
@@ -58,7 +58,7 @@ const Header = memo(() => {
               desc={displayDesc}
               tag={
                 <>
-                  <Tag icon={<SiOpenai size={'1em'} />}>{model}</Tag>
+                  <Tag icon={<SiPhabricator size={'1em'} />}>{model}</Tag>
                   {plugins?.length > 0 && <PluginTag plugins={plugins} />}
                 </>
               }

@@ -6,7 +6,7 @@
   "agentMaxToken": "最大對話長度",
   "agentModel": "模型",
   "agentProfile": "助理資訊",
-  "appInitializing": "LobeChat 正在初始化，請稍候...",
+  "appInitializing": "SapiensLabs 正在初始化，請稍候...",
   "archive": "歸檔",
   "autoGenerate": "自動產生",
   "autoGenerateTooltip": "根據提示自動產生助理描述",

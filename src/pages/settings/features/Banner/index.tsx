@@ -1,4 +1,4 @@
-import { GridBackground, Icon, Logo } from '@lobehub/ui';
+import { GridBackground, Icon } from '@lobehub/ui';
 import { createStyles, useResponsive } from 'antd-style';
 import { PackageCheck } from 'lucide-react';
 import { rgba } from 'polished';
@@ -38,6 +38,10 @@ const useStyles = createStyles(({ css, token, isDarkMode }) => ({
     top: 50%;
     left: 32px;
     transform: translateY(-50%);
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
   `,
   mobile: css`
     margin-top: -16px;
@@ -82,7 +86,7 @@ const Banner = memo<{ nav: ReactNode }>(({ nav }) => {
       />
       {nav}
       <div className={styles.logo}>
-        <Logo extra={'Chat'} type={'text'} />
+      🧬Sapiens
       </div>
       <Flexbox align={'center'} className={styles.tag} gap={4} horizontal>
         <Icon icon={PackageCheck} />
