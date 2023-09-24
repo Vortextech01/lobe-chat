@@ -30,7 +30,7 @@ export const createI18nNext = (params: { namespace?: Namespaces[] | Namespaces }
         detection: {
           caches: [],
         },
-        fallbackLng: 'zh-CN',
+        fallbackLng: 'en-US',
         interpolation: {
           escapeValue: false, // not needed for react as it escapes by default
         },
