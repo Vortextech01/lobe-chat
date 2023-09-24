@@ -12,7 +12,7 @@ import {
 export const DEFAULT_BASE_SETTINGS: GlobalBaseSettings = {
   avatar: '🧠',
   fontSize: 14,
-  language: 'en_US',
+  language: 'en-US',
   neutralColor: '',
   password: '',
   primaryColor: '',
