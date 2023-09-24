@@ -10,9 +10,9 @@ import {
 } from '@/types/settings';
 
 export const DEFAULT_BASE_SETTINGS: GlobalBaseSettings = {
-  avatar: '',
+  avatar: '🧠',
   fontSize: 14,
-  language: 'zh-CN',
+  language: 'en_US',
   neutralColor: '',
   password: '',
   primaryColor: '',
